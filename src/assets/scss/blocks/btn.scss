@@ -1,0 +1,44 @@
+.btn {
+    display: inline-block;
+    background-color: $accent;
+    border-radius: 7px;
+    height: 48px;
+    padding: 12px 28px;
+    color: $white;
+    letter-spacing: 0.15px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: opacity .2s ease-in;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:active {
+        position: relative;
+        top: 1.3px;
+    }
+}
+
+.btn-outline {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+
+    height: 48px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    border: 1px solid $black;
+    color: $black;
+
+    transition: opacity .3s ease-in;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:active {
+        position: relative;
+        top: 1.3px;
+    }
+}

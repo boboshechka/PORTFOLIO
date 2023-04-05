@@ -1,0 +1,38 @@
+.footer {
+    background-color: $black;
+    padding: 60px 0 50px;
+    color: $white;
+    margin-top: auto;
+
+    @include breakpoint($mobile-bp) {
+        padding: 40px 0 30px;
+    }
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 27px;
+
+    @include breakpoint($mobile-bp) {
+        row-gap: 20px;
+    }
+}
+
+.social {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+
+    @include breakpoint($mobile-bp) {
+        column-gap: 20px;
+    }
+}
+
+.social__item {
+    @include breakpoint($mobile-bp) {
+        width: 28px;
+    }
+}
